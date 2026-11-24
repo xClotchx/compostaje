@@ -1,7 +1,7 @@
 export default function VideoEmbed({ titulo }: { titulo: string }) {
   // PEGA AQUÍ el ID de tu video de YouTube (lo que va después de "v=" en la URL).
   // Ejemplo: https://www.youtube.com/watch?v=XXXXXXXXXXX  ->  "XXXXXXXXXXX"
-  const youtubeId = "";
+  const youtubeId = "https://youtu.be/VUxYO2HEU1g?si=zFo42NLXU2_peQFP";
 
   return (
     <div className="aspect-video w-full overflow-hidden rounded-xl bg-bosque shadow-lg">
